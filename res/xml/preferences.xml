@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+     <header android:fragment="com.fragmentproje.GizlilikPreferencesFragment"
+             android:icon="@drawable/pref_gizlilik"
+             android:title="@string/pref_gizlilik_title"
+             android:summary="@string/pref_gizlilik_summary" />
+      <header android:fragment="com.fragmentproje.UyarilarPreferencesFragment"
+             android:icon="@drawable/pref_uyari"
+             android:title="@string/pref_uyarilar_title"
+             android:summary="@string/pref_uyarilar_summary" />
+       <header android:fragment="com.fragmentproje.TonlarPreferencesFragment"
+             android:icon="@drawable/pref_bildirim_tonu"
+             android:title="@string/pref_bildirim_tonu_title"
+             android:summary="@string/pref_bildirim_tonu_summary" />
+    
+    
+</preference-headers>

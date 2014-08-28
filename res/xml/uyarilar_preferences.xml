@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="uyarilar_settings"
+    >
+    <PreferenceCategory 
+        android:title="@string/pref_category_uyarilar"
+        >
+        <CheckBoxPreference 
+            android:key="PREF_ARKADAS_UYARI"
+            android:title="@string/pref_yakindakileri_bildir"
+            android:defaultValue="true"
+            />
+        <ListPreference 
+            android:key="PREF_YAKINLIK_OLCUSU"
+            android:title="@string/pref_yakinlik_olcusu"
+            android:summary="@string/pref_yakinlik_olcusu_summary"
+            android:defaultValue="1"
+            android:dialogTitle="@string/pref_yakinlik_olcusu"
+            android:entries="@array/yakinlik_olcusu"
+            android:entryValues="@array/yakinlik_olcusu_values"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

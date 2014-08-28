@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="tonlar_settings"
+    >
+    <RingtonePreference 
+        android:key="PREF_BILDIRIM_TONU"
+        android:title="@string/pref_bildirim_tonu_title"
+        android:summary="@string/pref_bildirim_tonu_summary"
+        android:ringtoneType="notification"
+        android:showSilent="true"
+        android:showDefault="true"
+        />
+    
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentProje</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="pref_category_gizlilik">GIZLILIK</string>
+    <string name="pref_gizlilik_title">Gizlilik</string>
+    <string name="pref_gizlilik_summary">Gizlilik Ayarları</string>
+    
+    <string name="pref_category_uyarilar">UYARILAR</string>
+    <string name="pref_uyarilar_title">Uyarılar</string>
+    <string name="pref_uyarilar_summary">Uyarı Ayarları</string>
+    
+    <string name="pref_category_tonlar">TONLAR</string>
+    <string name="pref_tonlar_title">Tonlar</string>
+    <string name="pref_tonlar_summary">Bildirim Tonları</string>
+    
+    <string name="pref_otomatik_baslat">Otomatik Başlat</string>
+    <string name="pref_konum_bilgisi">Konum Bilgisi Gönder</string>
+    
+    <string name="pref_yakindakileri_bildir">Yakındakileri bildir</string>
+    <string name="pref_yakinlik_olcusu">Yakınlık Ölçüsü</string>
+    <string name="pref_yakinlik_olcusu_summary">Ne kadar yakın?</string>
+    
+    <string name="pref_bildirim_tonu_title">Bildirim Tonu</string>
+    <string name="pref_bildirim_tonu_summary">Arkadaş uyarı tonu</string>
+    
+
+</resources>
